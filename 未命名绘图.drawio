@@ -1,138 +1,106 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T07:13:49.811Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="xhG76dmMUgp8JwYd7t05" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-07T07:14:06.359Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="2wVWEw4lGzLpR7_kuQwV" version="24.0.2" type="github">
   <diagram name="第 1 页" id="onNldy-fITMc3NeipK9k">
     <mxGraphModel dx="1221" dy="783" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NR6u-LNorpDsBk_p2_hk-40" value="系统入口" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="361" y="175" width="80" height="34" as="geometry" />
+        <mxCell id="NR6u-LNorpDsBk_p2_hk-67" value="数据采集&#xa;Selenium &amp;amp; Scrapy" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="264" y="20" width="185" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NR6u-LNorpDsBk_p2_hk-41" value="首页概览模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="46" y="259" width="111" height="34" as="geometry" />
+        <mxCell id="NR6u-LNorpDsBk_p2_hk-68" value="数据存储&#xa;MySQL" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="317" y="120" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NR6u-LNorpDsBk_p2_hk-42" value="数据可视化分析模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="215" y="259" width="160" height="34" as="geometry" />
+        <mxCell id="NR6u-LNorpDsBk_p2_hk-69" value="用户请求处理&#xa;Web界面" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="187" y="219" width="112" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NR6u-LNorpDsBk_p2_hk-43" value="岗位分类模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="432" y="259" width="111" height="34" as="geometry" />
+        <mxCell id="NR6u-LNorpDsBk_p2_hk-70" value="数据处理与分析&#xa;Pandas" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="30" y="338" width="128" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NR6u-LNorpDsBk_p2_hk-44" value="薪资预测模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="625" y="259" width="111" height="34" as="geometry" />
+        <mxCell id="NR6u-LNorpDsBk_p2_hk-71" value="薪资预测&#xa;算法" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="208" y="338" width="79" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NR6u-LNorpDsBk_p2_hk-45" value="岗位推荐" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="834" y="259" width="79" height="34" as="geometry" />
+        <mxCell id="NR6u-LNorpDsBk_p2_hk-72" value="推荐岗位" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="337" y="346" width="79" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="NR6u-LNorpDsBk_p2_hk-46" value="数据采集与处理模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="494" y="175" width="160" height="34" as="geometry" />
+        <mxCell id="NR6u-LNorpDsBk_p2_hk-73" value="数据可视化展示&#xa;ECharts" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="183" y="437" width="128" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NR6u-LNorpDsBk_p2_hk-47" value="展示行业基本概况" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="30" y="342" width="143" height="34" as="geometry" />
+        <mxCell id="NR6u-LNorpDsBk_p2_hk-74" value="用户反馈" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="208" y="537" width="79" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="NR6u-LNorpDsBk_p2_hk-48" value="生成多种数据图表" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="223" y="342" width="143" height="34" as="geometry" />
+        <mxCell id="NR6u-LNorpDsBk_p2_hk-75" value="反馈与优化" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="309" y="621" width="96" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="NR6u-LNorpDsBk_p2_hk-49" value="展示详细岗位数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="416" y="342" width="143" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="NR6u-LNorpDsBk_p2_hk-50" value="根据输入预测薪资" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="609" y="342" width="143" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="NR6u-LNorpDsBk_p2_hk-51" value="根据输入推荐岗位" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="802" y="342" width="143" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="NR6u-LNorpDsBk_p2_hk-52" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.002083301544189453;exitY=0.6534522575563623;entryX=0.46374860834869547;entryY=-0.00980388416963465;rounded=0;" edge="1" parent="1" source="NR6u-LNorpDsBk_p2_hk-40" target="NR6u-LNorpDsBk_p2_hk-41">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="92" y="234" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NR6u-LNorpDsBk_p2_hk-53" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.002083301544189453;exitY=0.7490391189977996;entryX=0.2793326644124997;entryY=-0.00980388416963465;rounded=0;" edge="1" parent="1" source="NR6u-LNorpDsBk_p2_hk-40" target="NR6u-LNorpDsBk_p2_hk-42">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="208" y="234" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NR6u-LNorpDsBk_p2_hk-54" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.9901961158303654;entryX=0.1864254622162161;entryY=-0.00980388416963465;rounded=0;" edge="1" parent="1" source="NR6u-LNorpDsBk_p2_hk-40" target="NR6u-LNorpDsBk_p2_hk-43">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="401" y="234" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NR6u-LNorpDsBk_p2_hk-55" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9979166984558105;exitY=0.7490391189977996;entryX=0.18642546221621556;entryY=-0.00980388416963465;rounded=0;" edge="1" parent="1" source="NR6u-LNorpDsBk_p2_hk-40" target="NR6u-LNorpDsBk_p2_hk-44">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="594" y="234" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NR6u-LNorpDsBk_p2_hk-56" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9979166984558105;exitY=0.6220685884564912;entryX=0.05940792792404973;entryY=-0.00980388416963465;rounded=0;" edge="1" parent="1" source="NR6u-LNorpDsBk_p2_hk-40" target="NR6u-LNorpDsBk_p2_hk-45">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="787" y="234" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NR6u-LNorpDsBk_p2_hk-57" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.0010416507720947266;exitY=0.7495703683075007;entryX=0.8135745377837842;entryY=-0.00980388416963465;rounded=0;" edge="1" parent="1" source="NR6u-LNorpDsBk_p2_hk-46" target="NR6u-LNorpDsBk_p2_hk-41">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="188" y="234" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NR6u-LNorpDsBk_p2_hk-58" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.014616522908814744;exitY=0.9901961158303654;entryX=0.7144173355875001;entryY=-0.00980388416963465;rounded=0;" edge="1" parent="1" source="NR6u-LNorpDsBk_p2_hk-46" target="NR6u-LNorpDsBk_p2_hk-42">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="381" y="234" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NR6u-LNorpDsBk_p2_hk-59" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=0.9901961158303654;entryX=0.813574537783784;entryY=-0.00980388416963465;rounded=0;" edge="1" parent="1" source="NR6u-LNorpDsBk_p2_hk-46" target="NR6u-LNorpDsBk_p2_hk-43">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="574" y="234" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NR6u-LNorpDsBk_p2_hk-60" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.9853834770911852;exitY=0.9901961158303654;entryX=0.8135745377837844;entryY=-0.00980388416963465;rounded=0;" edge="1" parent="1" source="NR6u-LNorpDsBk_p2_hk-46" target="NR6u-LNorpDsBk_p2_hk-44">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="767" y="234" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NR6u-LNorpDsBk_p2_hk-61" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.9989583492279053;exitY=0.8124690169182028;entryX=0.5509354996619595;entryY=-0.00980388416963465;rounded=0;" edge="1" parent="1" source="NR6u-LNorpDsBk_p2_hk-46" target="NR6u-LNorpDsBk_p2_hk-45">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="884" y="234" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NR6u-LNorpDsBk_p2_hk-62" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.9803922316607308;entryX=0.5;entryY=0.009803996366613051;rounded=0;" edge="1" parent="1" source="NR6u-LNorpDsBk_p2_hk-41" target="NR6u-LNorpDsBk_p2_hk-47">
+        <mxCell id="NR6u-LNorpDsBk_p2_hk-76" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5031531359698321;exitY=0.9933333587646485;entryX=0.5010416269302368;entryY=-0.006666641235351562;rounded=0;" edge="1" parent="1" source="NR6u-LNorpDsBk_p2_hk-67" target="NR6u-LNorpDsBk_p2_hk-68">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NR6u-LNorpDsBk_p2_hk-63" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.496875;exitY=0.9803922316607308;entryX=0.5;entryY=0.009803996366613051;rounded=0;" edge="1" parent="1" source="NR6u-LNorpDsBk_p2_hk-42" target="NR6u-LNorpDsBk_p2_hk-48">
+        <mxCell id="NR6u-LNorpDsBk_p2_hk-77" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.0031249284744262694;exitY=0.8385053094121434;entryX=0.5014880725315639;entryY=0.006666717529296875;rounded=0;" edge="1" parent="1" source="NR6u-LNorpDsBk_p2_hk-68" target="NR6u-LNorpDsBk_p2_hk-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="243" y="194" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NR6u-LNorpDsBk_p2_hk-78" value="浏览信息" style="curved=1;startArrow=none;endArrow=block;exitX=0.0029761791229248047;exitY=0.9457627155874115;entryX=0.4986979067325592;entryY=-0.00666656494140625;rounded=0;" edge="1" parent="1" source="NR6u-LNorpDsBk_p2_hk-69" target="NR6u-LNorpDsBk_p2_hk-70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="94" y="303" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NR6u-LNorpDsBk_p2_hk-79" value="薪资预测" style="curved=1;startArrow=none;endArrow=block;exitX=0.5164780122310108;exitY=1.0000000762939454;entryX=0.49578055852576147;entryY=-0.00666656494140625;rounded=0;" edge="1" parent="1" source="NR6u-LNorpDsBk_p2_hk-69" target="NR6u-LNorpDsBk_p2_hk-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="247" y="303" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NR6u-LNorpDsBk_p2_hk-80" value="岗位推荐" style="curved=1;startArrow=none;endArrow=block;exitX=0.9999035675381681;exitY=1.0000000762939454;entryX=0.49578055852576147;entryY=-0.00980377197265625;rounded=0;" edge="1" parent="1" source="NR6u-LNorpDsBk_p2_hk-69" target="NR6u-LNorpDsBk_p2_hk-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="376" y="303" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NR6u-LNorpDsBk_p2_hk-81" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.4986979067325592;exitY=0.9866667938232422;entryX=0.002604156732559204;entryY=0.08841680606966407;rounded=0;" edge="1" parent="1" source="NR6u-LNorpDsBk_p2_hk-70" target="NR6u-LNorpDsBk_p2_hk-73">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="94" y="412" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NR6u-LNorpDsBk_p2_hk-82" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49578055852576147;exitY=0.9866667938232422;entryX=0.5013020634651184;entryY=0.006666793823242188;rounded=0;" edge="1" parent="1" source="NR6u-LNorpDsBk_p2_hk-71" target="NR6u-LNorpDsBk_p2_hk-73">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NR6u-LNorpDsBk_p2_hk-64" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.9803922316607308;entryX=0.5;entryY=0.009803996366613051;rounded=0;" edge="1" parent="1" source="NR6u-LNorpDsBk_p2_hk-43" target="NR6u-LNorpDsBk_p2_hk-49">
+        <mxCell id="NR6u-LNorpDsBk_p2_hk-83" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49578055852576147;exitY=0.9803923438577091;entryX=0.9999999701976776;entryY=0.010150875531836618;rounded=0;" edge="1" parent="1" source="NR6u-LNorpDsBk_p2_hk-72" target="NR6u-LNorpDsBk_p2_hk-73">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="376" y="412" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NR6u-LNorpDsBk_p2_hk-84" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5013020634651184;exitY=1.0000001525878905;entryX=0.49578055852576147;entryY=2.2439395680147059e-7;rounded=0;" edge="1" parent="1" source="NR6u-LNorpDsBk_p2_hk-73" target="NR6u-LNorpDsBk_p2_hk-74">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NR6u-LNorpDsBk_p2_hk-65" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.9803922316607308;entryX=0.5;entryY=0.009803996366613051;rounded=0;" edge="1" parent="1" source="NR6u-LNorpDsBk_p2_hk-44" target="NR6u-LNorpDsBk_p2_hk-50">
+        <mxCell id="NR6u-LNorpDsBk_p2_hk-85" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49578055852576147;exitY=0.9901963402243221;entryX=0.040144934805068054;entryY=-0.00980365977567785;rounded=0;" edge="1" parent="1" source="NR6u-LNorpDsBk_p2_hk-74" target="NR6u-LNorpDsBk_p2_hk-75">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="247" y="596" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NR6u-LNorpDsBk_p2_hk-66" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.9803922316607308;entryX=0.5;entryY=0.009803996366613051;rounded=0;" edge="1" parent="1" source="NR6u-LNorpDsBk_p2_hk-45" target="NR6u-LNorpDsBk_p2_hk-51">
+        <mxCell id="NR6u-LNorpDsBk_p2_hk-86" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.927359980939516;exitY=-0.00980365977567785;entryX=0.9989583253860473;entryY=0.8801775182129876;rounded=0;" edge="1" parent="1" source="NR6u-LNorpDsBk_p2_hk-75" target="NR6u-LNorpDsBk_p2_hk-68">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="459" y="596" />
+              <mxPoint x="459" y="194" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
