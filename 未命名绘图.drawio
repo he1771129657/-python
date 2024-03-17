@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-17T03:55:40.070Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="1ylHQ4c0qiK9iCufOgzN" version="24.0.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-03-17T03:56:20.191Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="B1X01aC--eYyKdJ_D7X6" version="24.0.7" type="github" pages="2">
   <diagram name="第 1 页" id="onNldy-fITMc3NeipK9k">
-    <mxGraphModel dx="1221" dy="783" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="1183" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,6 +18,9 @@
         </mxCell>
         <mxCell id="VeJ1cYVcu7RIzoJdJ_5J-35" value="解析HTML文档" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="184" y="479" width="118" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="VeJ1cYVcu7RIzoJdJ_5J-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VeJ1cYVcu7RIzoJdJ_5J-36" target="VeJ1cYVcu7RIzoJdJ_5J-57">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VeJ1cYVcu7RIzoJdJ_5J-36" value="提取数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="204" y="563" width="79" height="34" as="geometry" />
@@ -48,25 +51,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VeJ1cYVcu7RIzoJdJ_5J-57" value="数据处理" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="539" y="23" width="113" height="113" as="geometry" />
+          <mxGeometry x="648" y="24" width="113" height="113" as="geometry" />
         </mxCell>
         <mxCell id="VeJ1cYVcu7RIzoJdJ_5J-58" value="初步分析" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="555" y="205" width="80" height="34" as="geometry" />
+          <mxGeometry x="664" y="206" width="80" height="34" as="geometry" />
         </mxCell>
         <mxCell id="VeJ1cYVcu7RIzoJdJ_5J-59" value="存储数据" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="539" y="308" width="113" height="113" as="geometry" />
+          <mxGeometry x="648" y="309" width="113" height="113" as="geometry" />
         </mxCell>
         <mxCell id="VeJ1cYVcu7RIzoJdJ_5J-60" value="存储于Hadoop分布式文件系统" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="372" y="489" width="229" height="34" as="geometry" />
+          <mxGeometry x="481" y="490" width="229" height="34" as="geometry" />
         </mxCell>
         <mxCell id="VeJ1cYVcu7RIzoJdJ_5J-61" value="存储于HBase" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="651" y="489" width="106" height="34" as="geometry" />
+          <mxGeometry x="760" y="490" width="106" height="34" as="geometry" />
         </mxCell>
         <mxCell id="VeJ1cYVcu7RIzoJdJ_5J-62" value="记录数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="556" y="573" width="79" height="34" as="geometry" />
+          <mxGeometry x="665" y="574" width="79" height="34" as="geometry" />
         </mxCell>
         <mxCell id="VeJ1cYVcu7RIzoJdJ_5J-63" value="结束" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="572" y="656" width="47" height="34" as="geometry" />
+          <mxGeometry x="681" y="657" width="47" height="34" as="geometry" />
         </mxCell>
         <mxCell id="VeJ1cYVcu7RIzoJdJ_5J-64" value="使用Spark" style="curved=1;startArrow=none;endArrow=block;exitX=0.497257553370653;exitY=1.0058999525762238;entryX=0.5023762941360473;entryY=0.009804781745461857;rounded=0;" edge="1" parent="1" source="VeJ1cYVcu7RIzoJdJ_5J-57" target="VeJ1cYVcu7RIzoJdJ_5J-58">
           <mxGeometry relative="1" as="geometry">
@@ -81,28 +84,28 @@
         <mxCell id="VeJ1cYVcu7RIzoJdJ_5J-66" value="存入HDFS" style="curved=1;startArrow=none;endArrow=block;exitX=-0.0012675428812482716;exitY=0.9111941755068235;entryX=0.49972707423580787;entryY=0.000001121969784007353;rounded=0;" edge="1" parent="1" source="VeJ1cYVcu7RIzoJdJ_5J-59" target="VeJ1cYVcu7RIzoJdJ_5J-60">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="486" y="455" />
+              <mxPoint x="595" y="456" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VeJ1cYVcu7RIzoJdJ_5J-67" value="存入HBase" style="curved=1;startArrow=none;endArrow=block;exitX=0.9957826496225543;exitY=0.9111941755068235;entryX=0.499459500582713;entryY=0.000001121969784007353;rounded=0;" edge="1" parent="1" source="VeJ1cYVcu7RIzoJdJ_5J-59" target="VeJ1cYVcu7RIzoJdJ_5J-61">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="704" y="455" />
+              <mxPoint x="813" y="456" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VeJ1cYVcu7RIzoJdJ_5J-68" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49972707423580787;exitY=0.9901972378001493;entryX=-0.0039227401153950755;entryY=0.038404928434087035;rounded=0;" edge="1" parent="1" source="VeJ1cYVcu7RIzoJdJ_5J-60" target="VeJ1cYVcu7RIzoJdJ_5J-62">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="486" y="548" />
+              <mxPoint x="595" y="549" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VeJ1cYVcu7RIzoJdJ_5J-69" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.499459500582713;exitY=0.9901972378001493;entryX=0.9960772598846049;entryY=0.038404928434087035;rounded=0;" edge="1" parent="1" source="VeJ1cYVcu7RIzoJdJ_5J-61" target="VeJ1cYVcu7RIzoJdJ_5J-62">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="704" y="548" />
+              <mxPoint x="813" y="549" />
             </Array>
           </mxGeometry>
         </mxCell>
